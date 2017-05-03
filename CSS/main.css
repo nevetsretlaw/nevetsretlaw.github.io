@@ -25,11 +25,18 @@ li {
   list-style-type: none;
 }
 
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1em;
+}
+
 h3 {
   padding: 10px 0 15px 0;
   margin: 0;
 }
-
 
 .container {
   margin: 0;
@@ -57,15 +64,17 @@ body {
   color: #FFFA66;
 }
 
+/* logo text */
+header h1, header h2 {
+  color: #fff;
+}
+
 /* filter for readability */
 #opacity-filter {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* logo text */
-h1, h2 {
-  color: #fff;
-}
+
 
 /* links */
 a {
@@ -73,7 +82,7 @@ a {
 }
 
 a:focus {
-  color: #fff;
+  color: #FFFA66;
   text-decoration: none;
 }
 
@@ -88,7 +97,6 @@ a:hover {
 }
 
 
-
 /**********************************
 HEADING
 ***********************************/
@@ -98,17 +106,15 @@ header {
   height: 15%;
 }
 
-h1 {
+header h1 {
   margin: 10px;
-  font-size: 1.75em;
   line-height: 1.2em;
   text-align: center;
   letter-spacing: 2px;
   padding: 5px;
 }
 
-h2 {
-  font-size: 1em;
+header h2 {
   margin: -5px 0 0;
   text-align: center;
   padding: 10px;
