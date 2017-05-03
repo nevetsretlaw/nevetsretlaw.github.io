@@ -2,8 +2,10 @@
 GENERAL
 ***********************************/
 
+@font-face { font-family: Francois One; src: url('FrancoisOne-Regular.ttf'); }
+
 body {
-  font-family: 'Francois One', san-serif;
+  font-family: Francois One;
   background: url("../img/herovertical.png");
   background-size: 100%;
   background-attachment: fixed;
