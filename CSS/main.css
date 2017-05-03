@@ -74,8 +74,6 @@ header h1, header h2 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-
 /* links */
 a {
   color: #fff;
@@ -213,9 +211,11 @@ PAGE: HOME
 ***********************************/
 
 #profile-pic {
-  display: block;
-  height: 40%;
-  border: none;
+  display: run-in;
+}
+
+#profile-text {
+  display: run-in;
 }
 
 /**********************************

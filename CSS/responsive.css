@@ -4,6 +4,18 @@
     background-size: 120%;
     background-attachment: fixed;
   }
+
+  #profile-pic {
+    float:left;
+    display: inline;
+    width: 40%;
+  }
+
+  #profile-text {
+    float: right;
+    display: inline;
+    width: 60%;
+  }
 }
 
 /*@media screen and (min-width: 660px) {
