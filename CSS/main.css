@@ -186,8 +186,8 @@ footer i {
   margin: 20px;
 }
 
-footer p {
-
+footer #copyright {
+  padding: 10px;
 }
 
 .social-icon i {
