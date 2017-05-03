@@ -47,9 +47,46 @@ h3 {
   padding: 0 5%;
 }
 
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #282C34;
+  color: #FFFA66;
+}
+
+/* filter for readability */
 #opacity-filter {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #fff;
+}
+
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none
+}
+
+a:hover {
+  border-bottom: 4px #BA26EC solid;
+  color: #14D5E8;
+  text-decoration: none;
+}
+
 
 
 /**********************************
@@ -135,15 +172,21 @@ footer {
   color: #ccc;
 }
 
-footer a {
-  padding: 20px;
+footer a:hover {
+  border-bottom: 4px #BA26EC solid;
+
+}
+
+footer i {
+  padding: 0px;
+  margin: 20px;
 }
 
 footer p {
-  padding: 20px;
+
 }
 
-.social-icon {
+.social-icon i {
   width: 30px;
   height: 30px;
   margin: 0 5px;
@@ -153,15 +196,14 @@ footer p {
   text-decoration: none;
 }
 
-.social-icon:hover {
-  border-bottom: 4px #BA26EC solid;
+.social-icon i:hover {
   color: #14D5E8;
   text-decoration: none;
 }
 
 
 /**********************************
-PAGE: ME
+PAGE: HOME
 ***********************************/
 
 #profile-pic {
@@ -169,11 +211,6 @@ PAGE: ME
   height: 40%;
   border: none;
 }
-
-#abouttext {
-
-}
-
 
 /**********************************
 PAGE: HARDWARE
@@ -195,6 +232,11 @@ COLORS
 body {
   background-color: #282C34;
   color: #FFFA66;
+}
+
+/* filter for readability */
+#opacity-filter {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* logo text */
