@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
   body {
-    background: url("../img/hero.jpg");
+    background: url("../img/herohorizontal.jpg");
     background-size: 120%;
     background-attachment: fixed;
   }
