@@ -7,7 +7,7 @@ GENERAL
 body {
   font-family: Francois One;
   background: url("../img/herovertical.jpg");
-  background-size: 100%;
+  background-size: 125%;
   background-attachment: fixed;
   height: 600px;
   padding: 25px;
@@ -118,7 +118,6 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: none;
   border-bottom: 4px #BA26EC solid;
 }
 
@@ -150,6 +149,14 @@ footer p {
   margin: 0 5px;
   color: white;
   margin-bottom: 5px;
+  border-bottom: 4px #FFFA66 solid;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  border-bottom: 4px #BA26EC solid;
+  color: #14D5E8;
+  text-decoration: none;
 }
 
 
@@ -210,6 +217,7 @@ a:visited {
 }
 
 a:hover {
+  border-bottom: 4px #BA26EC solid;
   color: #14D5E8;
   text-decoration: none;
 }
