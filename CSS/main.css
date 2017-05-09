@@ -2,40 +2,30 @@
 GENERAL
 ***********************************/
 
-@font-face { font-family: Francois One; src: url('FrancoisOne-Regular.ttf'); }
-
 body {
-  font-family: Francois One;
   background: url("../img/herovertical.jpg");
   background-size: 125%;
   background-attachment: fixed;
-  height: 600px;
-  padding: 25px;
-}
-
-a {
-  text-decoration: none;
+  margin: 25px;
 }
 
 img {
   max-width: 100%;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 li {
   list-style-type: none;
 }
 
-h1 {
-  font-size: 1.75em;
-}
-
-h2 {
-  font-size: 1em;
-}
-
-h3 {
-  padding: 10px 0 15px 0;
-  margin: 0;
+h1, h2, h3 {
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .container {
@@ -50,9 +40,65 @@ h3 {
 }
 
 #main-content {
-  margin: 30px 0 0 0;
-  padding: 0 5%;
+
 }
+
+
+/**********************************
+FONTS
+***********************************/
+
+@font-face { font-family: Francois One; src: url('FrancoisOne-Regular.ttf'); }
+
+body {
+  font-family: Francois One;
+  font-size: 1.75rem;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 4px #BA26EC solid;
+  text-decoration: none;
+}
+
+header h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+header h2 {
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.75rem;
+  font-weight: 400;
+  border-bottom: 4px #FFFA66 solid;
+}
+
+nav a:hover {
+  border-bottom: 4px #BA26EC solid;
+}
+
 
 /**********************************
 COLORS
@@ -64,14 +110,14 @@ body {
   color: #FFFA66;
 }
 
+/* filter for readability */
+#opacity-filter {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
 /* logo text */
 header h1, header h2 {
   color: #fff;
-}
-
-/* filter for readability */
-#opacity-filter {
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* links */
@@ -81,17 +127,14 @@ a {
 
 a:focus {
   color: #FFFA66;
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none
 }
 
 a:hover {
-  border-bottom: 4px #BA26EC solid;
   color: #14D5E8;
-  text-decoration: none;
+}
+
+footer #copyright {
+  color: #14D5E8;
 }
 
 
@@ -101,33 +144,24 @@ HEADING
 
 header {
   width: 100%;
-  height: 15%;
 }
 
 header h1 {
-  margin: 10px;
-  line-height: 1.2em;
-  text-align: center;
-  letter-spacing: 2px;
-  padding: 5px;
+  height: 60%;
+  padding: 13px;
 }
 
 header h2 {
-  margin: -5px 0 0;
-  text-align: center;
-  padding: 10px;
+  height: 40%;
+  padding: 9px;
 }
 
 #header-top{
-  height: 90px;
+  height: 100px;
 }
 
 #header-bottom {
-  height: 90px;
-}
-
-#logo:hover {
-  text-decoration: none;
+  height: 100px;
 }
 
 
@@ -137,31 +171,30 @@ NAVIGATION
 
 nav {
   text-align: center;
-  padding: 10px 10px;
 }
 
 nav ul {
+  padding: 20px;
   list-style: none;
-  margin: 0 10px;
-  padding: 8px 6px 6px 6px;
 }
 
 nav li {
   display: inline-block;
-  padding: 5px;
+  padding: 10px;
 }
 
-nav a {
-  font-size: 1em;
-  font-weight: 400;
-  padding: 13px 8px;
-  border-bottom: 4px #FFFA66 solid;
+
+/**********************************
+PAGE: HOME
+***********************************/
+
+#profile-pic {
+  padding-bottom: 10px;
 }
 
-nav a:hover {
-  border-bottom: 4px #BA26EC solid;
+#profile-text {
+  text-align: center;
 }
-
 
 
 /**********************************
@@ -169,7 +202,7 @@ FOOTER
 ***********************************/
 
 footer {
-  font-size: 0.75em;
+  font-size: 1.5rem;
   text-align: center;
   clear: both;
   padding-top: 50px;
@@ -178,7 +211,6 @@ footer {
 
 footer a:hover {
   border-bottom: 4px #BA26EC solid;
-
 }
 
 footer i {
@@ -201,71 +233,6 @@ footer #copyright {
 }
 
 .social-icon i:hover {
-  color: #14D5E8;
-  text-decoration: none;
-}
-
-
-/**********************************
-PAGE: HOME
-***********************************/
-
-#profile-pic {
-  display: run-in;
-}
-
-#profile-text {
-  display: run-in;
-}
-
-/**********************************
-PAGE: HARDWARE
-***********************************/
-
-
-
-/**********************************
-PAGE: PORTFOLIO
-***********************************/
-
-
-
-/**********************************
-COLORS
-***********************************/
-
-/* site body */
-body {
-  background-color: #282C34;
-  color: #FFFA66;
-}
-
-/* filter for readability */
-#opacity-filter {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* logo text */
-h1, h2 {
-  color: #fff;
-}
-
-/* links */
-a {
-  color: #fff;
-}
-
-a:focus {
-  color: #fff;
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none
-}
-
-a:hover {
-  border-bottom: 4px #BA26EC solid;
   color: #14D5E8;
   text-decoration: none;
 }
