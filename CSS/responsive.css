@@ -9,14 +9,14 @@
   #header-top {
     float:left;
     display: inline;
-    width: 40%;
+    width: 50%;
   }
 
   #profile-text,
   #header-bottom {
     float: right;
     display: inline;
-    width: 60%;
+    width: 50%;
   }
 
   body {
@@ -24,8 +24,12 @@
     font-size: 1.75rem;
   }
 
+  header h1 {
+    margin-bottom: 15px;
+  }
+
   h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 
   }
 
@@ -44,10 +48,21 @@
   footer {
     font-size: 1.75rem;
   }
+
+  #profile-text {
+    padding: 8%;
+  }
 }
 
-/*@media screen and (min-width: 660px) {
-  body {
+@media screen and (min-width: 660px) {
+  h1 {
+    font-size: 3rem;
 
   }
-}*/
+}
+
+@media screen and (min-width: 660px) {
+  #profile-text {
+    padding: 8%;
+  }
+}
