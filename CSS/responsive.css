@@ -5,16 +5,44 @@
     background-attachment: fixed;
   }
 
-  #profile-pic {
+  #profile-pic,
+  #header-top {
     float:left;
     display: inline;
     width: 40%;
   }
 
-  #profile-text {
+  #profile-text,
+  #header-bottom {
     float: right;
     display: inline;
     width: 60%;
+  }
+
+  body {
+    font-family: Francois One;
+    font-size: 1.75rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  #opacity-filter header {
+    margin-bottom: 50px;
+  }
+
+  nav a {
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 1.75rem;
   }
 }
 
