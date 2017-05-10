@@ -1,23 +1,5 @@
 @media screen and (min-width: 480px) {
-  body {
-    background: url("../img/herohorizontal.jpg");
-    background-size: 120%;
-    background-attachment: fixed;
-  }
 
-  #profile-pic,
-  #header-top {
-    float:left;
-    display: inline;
-    width: 50%;
-  }
-
-  #profile-text,
-  #header-bottom {
-    float: right;
-    display: inline;
-    width: 50%;
-  }
 
   body {
     font-family: Francois One;
@@ -50,11 +32,36 @@
   }
 
   #profile-text {
-    padding: 8%;
+    padding: 0 8% 0 8%;
   }
 }
 
 @media screen and (min-width: 660px) {
+  body {
+    background: url("../img/herohorizontal.jpg");
+    background-size: 120%;
+    background-attachment: fixed;
+  }
+
+  #profile-pic {
+    max-height: 500px;
+    max-width: 404.5px;
+  }
+
+  #profile-pic,
+  #header-top {
+    float:left;
+    display: inline;
+    width: 50%;
+  }
+
+  #profile-text,
+  #header-bottom {
+    float: right;
+    display: inline;
+    width: 50%;
+  }
+
   h1 {
     font-size: 3rem;
 
@@ -63,6 +70,6 @@
 
 @media screen and (min-width: 660px) {
   #profile-text {
-    padding: 8%;
+    padding: 0 6% 0 6%;
   }
 }
